@@ -21,7 +21,7 @@ int main(){
         }else if(marks>65 && marks<70){
           printf("Grade is C-\n");
         }else if(marks>60 && marks<65){
-          printf("Grade is D\ngedit");
+          printf("Grade is D\n");
         }
    }else{
      printf("Students is Fail");
