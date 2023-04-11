@@ -35,12 +35,16 @@ int main(){
         perror("Failed to open file for writing : ");
         exit(1);
       }
+      write(fd1,"Name : ",7);
       write(fd1,name,strlen(name));
       write(fd1,&newline,1);
+      write(fd1,"Father Name : ",14);
       write(fd1,fatherName,strlen(fatherName));
       write(fd1,&newline,1);
+      write(fd1,"CNIC : ",7);
       write(fd1,nic,strlen(nic));
       write(fd1,&newline,1);
+      write(fd1,"City : ",7);
       write(fd1,cityName,strlen(cityName));
       write(fd1,&newline,1);
       
