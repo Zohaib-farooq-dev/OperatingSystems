@@ -11,7 +11,8 @@ void checkWin();
 void drawBoard();
 int main()
 {
-    int player=0,choice;
+    player=0;
+    int choice;
 
     do{
          drawBoard();

@@ -15,6 +15,7 @@ int main(){
    char str[10] = {0};
    char* nic = (char*)malloc(20*sizeof(char));
    char newline = '\n';
+   int id=0;
   
    do{
      printf("Enter the details of user \n\n");
@@ -57,6 +58,9 @@ int main(){
  
    
    }while(cont == 'y');
+   
+   
+   
    
 
 
